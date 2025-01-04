@@ -1,4 +1,3 @@
-# [index](index.html)
+# [reddy mural](index.html)
 
-* [HTML](https://webmural.com/html)
-* [CSS](https://webmural.com/css)
+music index
