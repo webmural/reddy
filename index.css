@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
   font-size: calc(1em + 1vmin + 2vmax);
-  line-height: 1.5;
+  line-height: 1.618;
 }
 
 body {
@@ -22,11 +22,16 @@ body {
 :focus {
   outline-width: thick;
   outline-style: dotted;
+  outline-color: currentColor;
 }
 
 :focus:active {
   outline-width: medium;
   outline-style: groove;
+}
+
+:focus-within {
+  filter: hue-rotate(-9deg);
 }
 
 li {
